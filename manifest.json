@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Web Time Tracker",
+    "version": "1.0",
+    "description": "Tracks time spent on websites",
+
+    "action": {
+        "default_popup": "react-popup/build/index.html"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "permissions": ["storage", "tabs", "idle"]
+}

@@ -1,0 +1,21 @@
+# Dependencies
+react-popup/node_modules/
+
+# Build output
+react-popup/build/
+
+# macOS
+.DS_Store
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
